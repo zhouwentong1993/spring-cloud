@@ -12,4 +12,6 @@ public class SpringCloudEurekaApplication {
 		SpringApplication.run(SpringCloudEurekaApplication.class, args);
 	}
 
+
+
 }

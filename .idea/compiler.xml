@@ -6,13 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="service-consumer" />
+        <module name="service-producer" />
         <module name="spring-cloud" />
         <module name="spring-cloud-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="service-consumer" target="1.8" />
+      <module name="service-producer" target="1.8" />
       <module name="spring-cloud" target="1.5" />
       <module name="spring-cloud-eureka" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="service-producer" options="" />
+    </option>
   </component>
 </project>
