@@ -12,6 +12,7 @@
         <module name="spring-cloud-config-client" />
         <module name="spring-cloud-config-server" />
         <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -21,6 +22,7 @@
       <module name="spring-cloud-config-client" target="1.8" />
       <module name="spring-cloud-config-server" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -28,6 +30,7 @@
       <module name="service-producer" options="" />
       <module name="spring-cloud-config-client" options="" />
       <module name="spring-cloud-config-server" options="" />
+      <module name="spring-cloud-zuul" options="" />
     </option>
   </component>
 </project>
