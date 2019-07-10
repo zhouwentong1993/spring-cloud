@@ -9,6 +9,7 @@
         <module name="service-consumer" />
         <module name="service-producer" />
         <module name="spring-cloud" />
+        <module name="spring-cloud-config-server" />
         <module name="spring-cloud-eureka" />
       </profile>
     </annotationProcessing>
@@ -16,12 +17,14 @@
       <module name="service-consumer" target="1.8" />
       <module name="service-producer" target="1.8" />
       <module name="spring-cloud" target="1.5" />
+      <module name="spring-cloud-config-server" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="service-producer" options="" />
+      <module name="spring-cloud-config-server" options="-parameters" />
     </option>
   </component>
 </project>
