@@ -5,6 +5,9 @@
     <file url="file://$PROJECT_DIR$/service-producer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-consul-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-consul-producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-consul-producer-1" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zipkin-server" charset="UTF-8" />
