@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-consul-producer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-consul-producer-1/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-consul-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-nacos-config/pom.xml" />
       </list>
     </option>
   </component>

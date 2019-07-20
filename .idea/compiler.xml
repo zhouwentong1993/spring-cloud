@@ -6,17 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="service-consumer" />
-        <module name="service-producer" />
-        <module name="spring-cloud" />
-        <module name="spring-cloud-config-client" />
-        <module name="spring-cloud-config-server" />
-        <module name="spring-cloud-consul-consumer" />
-        <module name="spring-cloud-consul-producer" />
         <module name="spring-cloud-consul-producer (1)" />
-        <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-config-client" />
+        <module name="service-consumer" />
+        <module name="spring-cloud-consul-producer (2)" />
+        <module name="spring-cloud-nacos-config" />
+        <module name="spring-cloud-consul-consumer" />
         <module name="spring-cloud-zuul" />
+        <module name="spring-cloud" />
+        <module name="spring-cloud-eureka" />
         <module name="zipkin-server" />
+        <module name="service-producer" />
+        <module name="spring-cloud-consul-producer" />
+        <module name="spring-cloud-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -28,7 +30,9 @@
       <module name="spring-cloud-consul-consumer" target="1.8" />
       <module name="spring-cloud-consul-producer" target="1.8" />
       <module name="spring-cloud-consul-producer (1)" target="1.8" />
+      <module name="spring-cloud-consul-producer (2)" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-nacos-config" target="1.8" />
       <module name="spring-cloud-zuul" target="1.8" />
       <module name="zipkin-server" target="1.8" />
     </bytecodeTargetLevel>
@@ -41,6 +45,8 @@
       <module name="spring-cloud-consul-consumer" options="-parameters" />
       <module name="spring-cloud-consul-producer" options="-parameters" />
       <module name="spring-cloud-consul-producer (1)" options="-parameters" />
+      <module name="spring-cloud-consul-producer (2)" options="-parameters" />
+      <module name="spring-cloud-nacos-config" options="-parameters" />
       <module name="spring-cloud-zuul" options="" />
       <module name="zipkin-server" options="" />
     </option>

@@ -10,7 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-consul-consumer/spring-cloud-consul-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-consul-consumer/spring-cloud-consul-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-consul-producer/spring-cloud-consul-producer.iml" filepath="$PROJECT_DIR$/spring-cloud-consul-producer/spring-cloud-consul-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-consul-producer-1/spring-cloud-consul-producer (1).iml" filepath="$PROJECT_DIR$/spring-cloud-consul-producer-1/spring-cloud-consul-producer (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-consul-producer/spring-cloud-consul-producer (2).iml" filepath="$PROJECT_DIR$/spring-cloud-consul-producer/spring-cloud-consul-producer (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka/spring-cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-nacos-config/spring-cloud-nacos-config.iml" filepath="$PROJECT_DIR$/spring-cloud-nacos-config/spring-cloud-nacos-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" filepath="$PROJECT_DIR$/spring-cloud-zuul/spring-cloud-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/zipkin-server/zipkin-server.iml" filepath="$PROJECT_DIR$/zipkin-server/zipkin-server.iml" />
     </modules>
